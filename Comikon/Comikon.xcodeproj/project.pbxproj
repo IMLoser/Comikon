@@ -11,6 +11,7 @@
 		97A5F6C01E65C4CB00FB280C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A5F6BF1E65C4CB00FB280C /* Assets.xcassets */; };
 		97A5F6C31E65C4CB00FB280C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A5F6C11E65C4CB00FB280C /* LaunchScreen.storyboard */; };
 		97A5F6F61E65C75500FB280C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5F6F51E65C75500FB280C /* AppDelegate.m */; };
+		97A5F6FB1E65CF6100FB280C /* DMMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5F6FA1E65CF6100FB280C /* DMMainController.m */; };
 		C2E0E01113A08E8FCD44C1A6 /* libPods-Comikon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C72D88EBA7C44BDE8D112686 /* libPods-Comikon.a */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 		97A5F6C41E65C4CB00FB280C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97A5F6F41E65C75500FB280C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97A5F6F51E65C75500FB280C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97A5F6F91E65CF6100FB280C /* DMMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMainController.h; sourceTree = "<group>"; };
+		97A5F6FA1E65CF6100FB280C /* DMMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMainController.m; sourceTree = "<group>"; };
 		A479FF4F3918C37597A16F29 /* Pods-Comikon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comikon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Comikon/Pods-Comikon.release.xcconfig"; sourceTree = "<group>"; };
 		C72D88EBA7C44BDE8D112686 /* libPods-Comikon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Comikon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -237,6 +240,8 @@
 		97A5F6E81E65C75500FB280C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97A5F6F91E65CF6100FB280C /* DMMainController.h */,
+				97A5F6FA1E65CF6100FB280C /* DMMainController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -459,6 +464,7 @@
 			files = (
 				97A5F6F61E65C75500FB280C /* AppDelegate.m in Sources */,
 				97A5F6B51E65C4CB00FB280C /* main.m in Sources */,
+				97A5F6FB1E65CF6100FB280C /* DMMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +619,7 @@
 				97A5F6C91E65C4CB00FB280C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
