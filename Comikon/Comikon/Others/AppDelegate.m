@@ -17,11 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window setRootViewController:[[DMMainController alloc] init]];
-    [self.window makeKeyAndVisible];
+ 
+    [DMMainController initialRootViewControllerWith:^(UIWindow *keyWindow) {
+        self.window = keyWindow;
+    }];
     
     return YES;
 }

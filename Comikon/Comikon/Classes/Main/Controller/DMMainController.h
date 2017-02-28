@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef void (^keyWindowBlock)(UIWindow *keyWindow);
 
 @interface DMMainController : UITabBarController
+
++ (void)initialRootViewControllerWith:(keyWindowBlock)block;
 
 @end

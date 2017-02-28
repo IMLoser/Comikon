@@ -20,6 +20,13 @@
     
 }
 
++ (void)initialRootViewControllerWith:(keyWindowBlock)block {
 
+    UIWindow * keyWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    keyWindow.backgroundColor = [UIColor whiteColor];
+    keyWindow.rootViewController = [[DMMainController alloc] init];
+    [keyWindow makeKeyAndVisible];
+    block(keyWindow);
+}
 
 @end
