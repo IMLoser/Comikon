@@ -18,6 +18,11 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIImageView * imgV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"timg"]];
+    imgV.frame = self.view.bounds;
+    [self.view addSubview:imgV];
+    
 }
 
 @end

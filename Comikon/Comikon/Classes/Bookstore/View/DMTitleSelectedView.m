@@ -88,7 +88,7 @@
     _currentIndex = selectedBtn.tag;
     CGFloat aniViewW = self.frame.size.width / self.buttonArray.count / 3;
     
-    [UIView animateWithDuration:0.3 animations:^{
+    [UIView animateWithDuration:0.2 animations:^{
         CGRect tmpF = self.animationView.frame;
         tmpF.origin.x = aniViewW + aniViewW * 3 * _currentIndex;
         self.animationView.frame = tmpF;
