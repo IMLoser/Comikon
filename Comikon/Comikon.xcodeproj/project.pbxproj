@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		971168CD1E66A8A80033FE0A /* DMBookshelfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168CC1E66A8A80033FE0A /* DMBookshelfVC.m */; };
+		971168D01E66A8E00033FE0A /* DMBookstoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168CF1E66A8E00033FE0A /* DMBookstoreVC.m */; };
+		971168D31E66A9050033FE0A /* DMSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D21E66A9050033FE0A /* DMSettingsVC.m */; };
+		971168D61E66A9C20033FE0A /* DMMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D51E66A9C20033FE0A /* DMMainNavController.m */; };
+		971168D91E66B8140033FE0A /* DMTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D81E66B8140033FE0A /* DMTabbar.m */; };
 		97A5F6B51E65C4CB00FB280C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5F6B41E65C4CB00FB280C /* main.m */; };
 		97A5F6C01E65C4CB00FB280C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A5F6BF1E65C4CB00FB280C /* Assets.xcassets */; };
 		97A5F6C31E65C4CB00FB280C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A5F6C11E65C4CB00FB280C /* LaunchScreen.storyboard */; };
@@ -17,6 +22,16 @@
 
 /* Begin PBXFileReference section */
 		6595BB6B530C414A2B3D2B63 /* Pods-Comikon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comikon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Comikon/Pods-Comikon.debug.xcconfig"; sourceTree = "<group>"; };
+		971168CB1E66A8A80033FE0A /* DMBookshelfVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBookshelfVC.h; sourceTree = "<group>"; };
+		971168CC1E66A8A80033FE0A /* DMBookshelfVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBookshelfVC.m; sourceTree = "<group>"; };
+		971168CE1E66A8E00033FE0A /* DMBookstoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBookstoreVC.h; sourceTree = "<group>"; };
+		971168CF1E66A8E00033FE0A /* DMBookstoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBookstoreVC.m; sourceTree = "<group>"; };
+		971168D11E66A9050033FE0A /* DMSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSettingsVC.h; sourceTree = "<group>"; };
+		971168D21E66A9050033FE0A /* DMSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSettingsVC.m; sourceTree = "<group>"; };
+		971168D41E66A9C20033FE0A /* DMMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMainNavController.h; sourceTree = "<group>"; };
+		971168D51E66A9C20033FE0A /* DMMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMainNavController.m; sourceTree = "<group>"; };
+		971168D71E66B8140033FE0A /* DMTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTabbar.h; sourceTree = "<group>"; };
+		971168D81E66B8140033FE0A /* DMTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTabbar.m; sourceTree = "<group>"; };
 		97A5F6B01E65C4CB00FB280C /* Comikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A5F6B41E65C4CB00FB280C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97A5F6BF1E65C4CB00FB280C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,10 +109,10 @@
 			children = (
 				97A5F6D71E65C75500FB280C /* Bookshelf */,
 				97A5F6DB1E65C75500FB280C /* Bookstore */,
+				97A5F6EB1E65C75500FB280C /* Settings */,
 				97A5F6DF1E65C75500FB280C /* Category */,
 				97A5F6E31E65C75500FB280C /* Lib */,
 				97A5F6E71E65C75500FB280C /* Main */,
-				97A5F6EB1E65C75500FB280C /* Settings */,
 				97A5F6EF1E65C75500FB280C /* Tools */,
 			);
 			path = Classes;
@@ -116,6 +131,8 @@
 		97A5F6D81E65C75500FB280C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				971168CB1E66A8A80033FE0A /* DMBookshelfVC.h */,
+				971168CC1E66A8A80033FE0A /* DMBookshelfVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -147,6 +164,8 @@
 		97A5F6DC1E65C75500FB280C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				971168CE1E66A8E00033FE0A /* DMBookstoreVC.h */,
+				971168CF1E66A8E00033FE0A /* DMBookstoreVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -242,6 +261,8 @@
 			children = (
 				97A5F6F91E65CF6100FB280C /* DMMainController.h */,
 				97A5F6FA1E65CF6100FB280C /* DMMainController.m */,
+				971168D41E66A9C20033FE0A /* DMMainNavController.h */,
+				971168D51E66A9C20033FE0A /* DMMainNavController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +277,8 @@
 		97A5F6EA1E65C75500FB280C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				971168D71E66B8140033FE0A /* DMTabbar.h */,
+				971168D81E66B8140033FE0A /* DMTabbar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +296,8 @@
 		97A5F6EC1E65C75500FB280C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				971168D11E66A9050033FE0A /* DMSettingsVC.h */,
+				971168D21E66A9050033FE0A /* DMSettingsVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -462,7 +487,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971168D61E66A9C20033FE0A /* DMMainNavController.m in Sources */,
+				971168D31E66A9050033FE0A /* DMSettingsVC.m in Sources */,
+				971168D91E66B8140033FE0A /* DMTabbar.m in Sources */,
 				97A5F6F61E65C75500FB280C /* AppDelegate.m in Sources */,
+				971168D01E66A8E00033FE0A /* DMBookstoreVC.m in Sources */,
+				971168CD1E66A8A80033FE0A /* DMBookshelfVC.m in Sources */,
 				97A5F6B51E65C4CB00FB280C /* main.m in Sources */,
 				97A5F6FB1E65CF6100FB280C /* DMMainController.m in Sources */,
 			);
