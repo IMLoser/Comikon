@@ -12,6 +12,7 @@
 		971168D31E66A9050033FE0A /* DMSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D21E66A9050033FE0A /* DMSettingsVC.m */; };
 		971168D61E66A9C20033FE0A /* DMMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D51E66A9C20033FE0A /* DMMainNavController.m */; };
 		971168D91E66B8140033FE0A /* DMTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D81E66B8140033FE0A /* DMTabbar.m */; };
+		971168DC1E66C9580033FE0A /* DMTitleSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168DB1E66C9580033FE0A /* DMTitleSelectedView.m */; };
 		97A5F6B51E65C4CB00FB280C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5F6B41E65C4CB00FB280C /* main.m */; };
 		97A5F6C01E65C4CB00FB280C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A5F6BF1E65C4CB00FB280C /* Assets.xcassets */; };
 		97A5F6C31E65C4CB00FB280C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A5F6C11E65C4CB00FB280C /* LaunchScreen.storyboard */; };
@@ -32,6 +33,8 @@
 		971168D51E66A9C20033FE0A /* DMMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMainNavController.m; sourceTree = "<group>"; };
 		971168D71E66B8140033FE0A /* DMTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTabbar.h; sourceTree = "<group>"; };
 		971168D81E66B8140033FE0A /* DMTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTabbar.m; sourceTree = "<group>"; };
+		971168DA1E66C9580033FE0A /* DMTitleSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTitleSelectedView.h; sourceTree = "<group>"; };
+		971168DB1E66C9580033FE0A /* DMTitleSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTitleSelectedView.m; sourceTree = "<group>"; };
 		97A5F6B01E65C4CB00FB280C /* Comikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A5F6B41E65C4CB00FB280C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97A5F6BF1E65C4CB00FB280C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 		97A5F6DE1E65C75500FB280C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				971168DA1E66C9580033FE0A /* DMTitleSelectedView.h */,
+				971168DB1E66C9580033FE0A /* DMTitleSelectedView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -487,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971168DC1E66C9580033FE0A /* DMTitleSelectedView.m in Sources */,
 				971168D61E66A9C20033FE0A /* DMMainNavController.m in Sources */,
 				971168D31E66A9050033FE0A /* DMSettingsVC.m in Sources */,
 				971168D91E66B8140033FE0A /* DMTabbar.m in Sources */,
