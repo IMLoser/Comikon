@@ -22,9 +22,11 @@
     
 }
 
-- (UIImage *)createImageWithColor: (UIColor *) color
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
 
-{
+- (UIImage *)createImageWithColor: (UIColor *) color {
     
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     
