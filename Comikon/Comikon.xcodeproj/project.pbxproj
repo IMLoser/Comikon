@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F25FB31E67DAD700C48F9D /* StartPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F25FB21E67DAD700C48F9D /* StartPage.m */; };
 		971168CD1E66A8A80033FE0A /* DMBookshelfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168CC1E66A8A80033FE0A /* DMBookshelfVC.m */; };
 		971168D01E66A8E00033FE0A /* DMBookstoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168CF1E66A8E00033FE0A /* DMBookstoreVC.m */; };
 		971168D31E66A9050033FE0A /* DMSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 971168D21E66A9050033FE0A /* DMSettingsVC.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19F25FB11E67DAD700C48F9D /* StartPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPage.h; sourceTree = "<group>"; };
+		19F25FB21E67DAD700C48F9D /* StartPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPage.m; sourceTree = "<group>"; };
 		6595BB6B530C414A2B3D2B63 /* Pods-Comikon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comikon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Comikon/Pods-Comikon.debug.xcconfig"; sourceTree = "<group>"; };
 		971168CB1E66A8A80033FE0A /* DMBookshelfVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBookshelfVC.h; sourceTree = "<group>"; };
 		971168CC1E66A8A80033FE0A /* DMBookshelfVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBookshelfVC.m; sourceTree = "<group>"; };
@@ -292,6 +295,8 @@
 			children = (
 				971168D71E66B8140033FE0A /* DMTabbar.h */,
 				971168D81E66B8140033FE0A /* DMTabbar.m */,
+				19F25FB11E67DAD700C48F9D /* StartPage.h */,
+				19F25FB21E67DAD700C48F9D /* StartPage.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 				971168D31E66A9050033FE0A /* DMSettingsVC.m in Sources */,
 				971168D91E66B8140033FE0A /* DMTabbar.m in Sources */,
 				97A5F6F61E65C75500FB280C /* AppDelegate.m in Sources */,
+				19F25FB31E67DAD700C48F9D /* StartPage.m in Sources */,
 				971168D01E66A8E00033FE0A /* DMBookstoreVC.m in Sources */,
 				971168CD1E66A8A80033FE0A /* DMBookshelfVC.m in Sources */,
 				97A5F6B51E65C4CB00FB280C /* main.m in Sources */,
