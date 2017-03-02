@@ -17,8 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+        
+    
     UIColor * backgroundColor = [UIColor colorWithRed:0 green:173 / 255.0 blue:239 / 255.0 alpha:0.9f];
     [self.navigationBar setBackgroundImage:[self createImageWithColor:backgroundColor] forBarMetrics:UIBarMetricsDefault];
+    
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
@@ -42,6 +45,11 @@
     UIGraphicsEndImageContext(); // 关闭图形上下文
     
     return theImage;
+    
+}
+
+#pragma mark - 监听检索方法
+- (void)lala {
     
 }
 

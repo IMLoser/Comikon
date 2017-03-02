@@ -68,6 +68,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		971168DD1E673B0B0033FE0A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		97A5F6A71E65C4CB00FB280C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +110,7 @@
 				97A5F6C11E65C4CB00FB280C /* LaunchScreen.storyboard */,
 				97A5F6C41E65C4CB00FB280C /* Info.plist */,
 				97A5F6B41E65C4CB00FB280C /* main.m */,
+				971168DD1E673B0B0033FE0A /* New Group */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
