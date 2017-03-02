@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DMMainController.h"
+#import "StartPage.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,9 @@
     [DMMainController initialRootViewControllerWith:^(UIWindow *keyWindow) {
         self.window = keyWindow;
     }];
+    
+    StartPage *page = [[StartPage alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window addSubview:page];
     
     return YES;
 }
